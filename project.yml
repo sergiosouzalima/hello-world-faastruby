@@ -1,0 +1,28 @@
+project:
+  # The project name
+  name: hello-world
+
+  # The project identifier is used to ensure your workspaces will have unique names.
+  # This is not a secret, but don't lose it!
+  identifier: 8f6356
+
+  ## The 'public' directory is where you put static files.
+  ## Files will be served from there first, meaning that if
+  ## you have a function at 'functions/product' and a folder
+  ## 'public/product', the public one will take precedence.
+  ## Defaults to 'public'.
+  # public_dir: public
+
+  ## The name of the folder containing the project's functions.
+  ## Defaults to 'functions'.
+  # functions_dir: functions
+
+  ## The name of the function that will respond to requests made
+  ## to '/'. Defaults to 'root'
+  # root_to: root
+
+  ## The setting 'catch_all' allows you to capture requests to
+  ## non-existing functions and send them to another function.
+  ## This is useful for setting custom 404 pages, for example.
+  ## Defaults to 'catch-all'.
+  # catch_all: catch-all
